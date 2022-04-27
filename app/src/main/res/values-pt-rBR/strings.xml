@@ -34,6 +34,7 @@
 	<string name="new_app_version_inapp_failed">Não foi possível instalar a atualização do aplicativo. Toque aqui para abrir a Play Store e atualizar o aplicativo.</string>
 
 	<!-- Downloader strings-->
+	<string name="grant_all_files_access">Favor habilitar \"Acesso a todos os arquivos\" para o aplicativo, que é usado apenas para baixar os ZIPs OTA para o diretório mais alto do armazenamento interno</string>
 	<string name="download">Baixar atualização</string>
 	<string name="downloaded">Atualização baixada</string>
 	<string name="downloading">Baixando atualização…</string>
@@ -57,7 +58,7 @@ Se você quiser saber mais, sinta-se à vontade para nos contatar via <a href="m
 	<string name="download_error_storage">Não há espaço de armazenamento suficiente disponível em seu dispositivo para baixar a atualização. Remova alguns arquivos e tente baixá-los novamente.</string>
 
 	<string name="download_failed">Erro no download</string>
-	<string name="download_pending">Seu download começará em breve...</string>
+	<string name="download_pending">Seu download começará em breve…</string>
 	<string name="download_notification_error_server">Erro do servidor durante o download. Reinicie o download.</string>
 	<string name="download_notification_error_internal">Erro técnico durante o download. Reinicie o download ou entre em contato com o suporte.</string>
 	<string name="download_notification_error_storage_full">Espaço de armazenamento insuficiente.</string>
@@ -75,7 +76,7 @@ Se você quiser saber mais, sinta-se à vontade para nos contatar via <a href="m
 
 	<string name="download_verifying">Verificando…</string>
 	<string name="download_verifying_error">Arquivo danificado</string>
-	<string name="download_verifying_start">Seu download será verificado agora...</string>
+	<string name="download_verifying_start">Seu download será verificado agora…</string>
 
 	<!-- Settings strings-->
 	<string name="preference_header_support">Apoie-nos</string>
@@ -104,11 +105,6 @@ Se você quiser saber mais, sinta-se à vontade para nos contatar via <a href="m
 	<string name="theme_dark">Escuro</string>
 	<string name="theme_system">Sistema</string>
 	<string name="theme_auto">Automático</string>
-
-	
-	<!-- Value cannot be changed - is from older version where it was called 'upload_logs' -->
-
-	<!-- Typo can't be fixed due to older versions of the app being released with it -->
 
 	<string name="theme_light_subtitle">Tema com fundo branco e cor primária e vermelho OnePlus</string>
 	<string name="theme_dark_subtitle">Vermelho OnePlus com um fundo quase preto. Use este tema para economizar bateria, especialmente em telas AMOLED.</string>
@@ -163,12 +159,12 @@ conservar bateria</string>
 
 	<!-- Automatic install strings -->
 	<string name="install">Install</string>
-	<string name="install_checking_root">Verificando se o seu dispositivo está com acesso root ...</string>
+	<string name="install_checking_root">Verificando se o seu dispositivo está com acesso root…</string>
 	<string name="install_grant_root_permissions">Permita o acesso root quando solicitado.</string>
 	<string name="install_going_back_not_possible">Infelizmente, você não pode voltar agora</string>
 	<string name="install_preparing_installation">Preparando a instalação…</string>
 
-	<string name="install_recovery_installer_title">Instalador de Atualização  &#160;&#160;</string> <!-- Add 2 spaces to the end -->
+	<string name="install_recovery_installer_title">Instalador de Atualização&#160;&#160;</string> <!-- Add 2 spaces to the end -->
 	<string name="install_recovery_backing_up">Fazendo backup do seu dispositivo. Isso vai demorar um pouco, mas relaxe e tome um café ;D</string>
 	<string name="install_recovery_clearing_cache">Limpando a partição do cache…</string>
 	<string name="install_recovery_done">Prontinho! Seu dispositivo irá reiniciar.</string>
@@ -182,7 +178,7 @@ conservar bateria</string>
 	<string name="install_options_header">Você pode personalizar o processo de instalação alterando as opções mostradas abaixo. Toque em \"Começar instalação\" para iniciar a instalação da atualização.</string>
 	<string name="install_options_keep_root">Manter meu dispositivo com acesso root</string>
 	<string name="install_options_reboot_after_install">Reiniciar após a instalação</string>
-	<string name="install_options_select_root_package">Selecione o arquivo de root para instalar...</string>
+	<string name="install_options_select_root_package">Selecione o arquivo de root para instalar…</string>
 	<string name="install_options_start_install">Começar instalação</string>
 	<string name="install_options_subtitle">Escolha suas opções de instalação</string>
 	<string name="install_options_wipe_cache_partition">Limpe a partição de cache</string>
@@ -237,7 +233,7 @@ Instruções:
 &#8226; Role para baixo até ver as atualizações do sistema. Toque nele."</string>
 
 	<string name="install_guide_page_3_title">Instale a atualização</string>
-	<string name="install_guide_page_3_text">"Agora que você está no aplicativo Atualização do Sistema, é hora de instalar a atualização..
+	<string name="install_guide_page_3_text">"Agora que você está no aplicativo Atualização do Sistema, é hora de instalar a atualização.
 
 &#8226; Na seção Atualizações do sistema, toque no ícone de engrenagem no canto superior direito
 
@@ -395,7 +391,6 @@ Instruções:
 	<string name="purchase_error_after_payment">A compra da versão sem anúncios falhou porque ocorreu um erro interno. Por favor, tente novamente em alguns minutos. Se você já pagou, entre em contato com o suporte do Google Play para obter assistência.</string>
 
 	<!-- Other strings-->
-	
 	<string name="error">Erro</string>
 	<string name="icon">Icone</string>
 	<string name="loading">Carregando…</string>
